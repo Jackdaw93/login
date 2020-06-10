@@ -1,44 +1,44 @@
-body{
-	font-family: sans-serif;
-	background: #d5f0f3;
+* {
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: cornflowerblue;
+}
+.login {
+  top: 100px;
+  position: relative;
+  background-origin: 4px;
+  display: block;
+  padding: 10px;
+  width: 100%;
+  background-color: cornsilk;
+  max-width: 300px;
+  box-shadow: 0px 2px 2px black;
 }
 
-.title_login{
+.login form input.judul {
+  padding: 10px;
+  margin-bottom: 5px;
+  outline: none;
+  height: 40px;
+  width: 100%;
+  display: block;
+  border: 1px solid;
+  border-radius: 4px;
+}
+
+.login form button.btn-login {
+  background-color: cyan;
+  border-radius: 4px;
+  border: 1px solid;
+  padding: 10px;
+  display: block;
+  width: 100%;
+  color: darkmagenta;
+}
+.login form h3.caption {
+	padding: 10px 0;
 	text-align: center;
-    text-transform: uppercase;
-    font-family: 'Piedra', cursive;
-}
-
-.form-group{
-	width: 350px;
-	background: white;
-	margin: 80px auto;
-	padding: 30px 20px;
-}
-
-label{
-	font-size: 11pt;
-}
-
-.form_login{
-	box-sizing : border-box;
-	width: 100%;
-	padding: 10px;
-	font-size: 11pt;
-	margin-bottom: 20px;
-}
-
-.submit-btn {
-    background: #4c17dd;
-	color: white;
-	font-size: 11pt;
-    width: 50%;
-    flex-wrap: wrap;
-	border: none;
-	border-radius: 3px;
-    padding: 10px 20px;
-}
-
-.title_user {
-    font-family: 'Piedra', cursive;
 }
